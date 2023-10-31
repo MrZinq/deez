@@ -91,12 +91,11 @@
         }
     },
     "autoload-dev": {
-        "psr-4": {
-            "classmap": [
-                "tests/TestCase.php"
-              
+	"psr-4": {
+        "classmap": [
+            "tests/TestCase.php"
         ]
-        }
+}
     },
     "scripts": {
         "post-root-package-install": [
