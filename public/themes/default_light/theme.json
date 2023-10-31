@@ -1,0 +1,10 @@
+{
+	"slug": "default_light",
+	"name": "Default Light",
+	"author": "Wiledia",
+	"description": "The default light GamePort theme from wiledia.",
+	"version": "1.6",
+	"gameport_version": "1.6",
+	"parent": "default",
+	"public": true
+}
