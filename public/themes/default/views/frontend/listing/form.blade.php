@@ -1523,7 +1523,7 @@ function priceBlur() {
       $("#sell_status").val("0");
       $("#sell-ban").css('opacity','1');
       $(this).toggleClass( "disabled", true );
-      $('input[name=price]').val("");
+      $('input[name=price]').val("0");
 
     }else{
       $("#sell-panel").slideDown("fast");
