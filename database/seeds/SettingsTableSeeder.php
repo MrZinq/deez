@@ -82,7 +82,7 @@ class SettingsTableSeeder extends Seeder
                 'key'         => 'giantbomb_key',
                 'name'        => 'Giantbomb API Key',
                 'description' => 'Giantbomb API Key',
-                'value'       => "f74ef908ed1b39531e6bee16b53b4e8ef7576c80",
+                'value'       => null,
                 'field'       => '{"name":"value","label":"Value","type":"text"}',
                 'active'      => 1,
                 'category'    => 'game',
