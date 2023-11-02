@@ -17,7 +17,7 @@ class Giantbomb extends Model
 
     protected $table = 'games_giantbomb';
 
-    protected $primaryKey = '';
+    protected $primaryKey = 'id';
     // public $timestamps = false;
     // protected $guarded = ['id'];
     // protected $fillable = [];
