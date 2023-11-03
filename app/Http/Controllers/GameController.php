@@ -501,7 +501,7 @@ class GameController
         // START GIANTBOMB
         $metacritic_name = \DB::table('games_metacritic')->where('game_id', $game_id)->pluck('name');
 
-        $apiKey = str_replace(' ', '', config('settings.giantbomb_key'));
+        $apiKey = str_replace(' ', '', config('f74ef908ed1b39531e6bee16b53b4e8ef7576c80'));
 
         try {
             // Create a Config object and pass it to the Client
